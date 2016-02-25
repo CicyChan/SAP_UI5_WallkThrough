@@ -1,0 +1,13 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="BootStrap.Descriptor.controller.App" 
+  xmlns="sap.m">
+	<Button
+	 text = "{i18n>shownHelloButtonText}"
+	 press = "OnShowMessage" />
+	 <Input 
+	 value = "{/receipt/name}"
+	 description = "hello {/receipt/name}"
+	 valueLiveUpdate = "true"
+	 width = "60%"/>
+</mvc:View>

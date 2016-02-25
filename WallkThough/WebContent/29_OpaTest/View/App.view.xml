@@ -1,0 +1,22 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="BootStrap.Demo.controller.App" 
+  xmlns="sap.m"
+  displayBlock= "true">
+  <App class = "myAppDemoWT">
+  	<pages>
+  		<Page title = "{i18n>homePageTitle}">
+  			<headerContent>
+  				<Button
+  					icon = "sap-icon://hello-world"
+  					press = "onOpenDialog" 
+  				/>
+  			</headerContent>
+  			<content>
+  				<mvc:XMLView viewName = "BootStrap.Demo.View.HelloPanel" />
+  				<mvc:XMLView viewName = "BootStrap.Demo.View.InvoiceList" />
+  			</content>
+  		</Page>
+  	</pages>
+  </App>
+</mvc:View>

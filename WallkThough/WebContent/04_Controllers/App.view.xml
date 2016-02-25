@@ -1,0 +1,8 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="BootStrap.Controller.App" 
+  xmlns="sap.m">
+	<Button
+	 text = "sayHello"
+	 press = "OnShowMessage" />
+</mvc:View>

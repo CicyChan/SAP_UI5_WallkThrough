@@ -1,0 +1,15 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="BootStrap.Fragment.controller.App" 
+  xmlns="sap.m"
+  displayBlock= "true">
+  <App class = "myAppDemoWT">
+  	<pages>
+  		<Page title = "{i18n>homePageTitle}">
+  			<content>
+  				<mvc:XMLView viewName = "BootStrap.Fragment.View.HelloPanel" />
+  			</content>
+  		</Page>
+  	</pages>
+  </App>
+</mvc:View>

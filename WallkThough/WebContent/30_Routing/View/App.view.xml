@@ -1,0 +1,7 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="BootStrap.Demo.controller.App" 
+  xmlns="sap.m"
+  displayBlock= "true">
+  <App class = "myAppDemoWT" id = "app"/>
+</mvc:View>
